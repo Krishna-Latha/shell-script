@@ -1,7 +1,7 @@
 #!/bin/bash
 #this prog is for variables
-Person1=Rahul
-Person2=Rama
+Person1=$1
+Person2=$2
 echo "$Person1" : "Hi $Person2"
 echo "${Person2}" : "Hi $Person1"
 echo "$Person1" : "what are you doing"
