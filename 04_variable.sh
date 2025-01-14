@@ -1,5 +1,5 @@
 #!/bin/bash
-#this prog is for variables
+#this prog is for run time variables
 Person1=$1
 Person2=$2
 echo "$Person1" : "Hi $Person2"
