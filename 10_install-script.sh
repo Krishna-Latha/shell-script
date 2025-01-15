@@ -5,5 +5,5 @@ then
   echo "ERROR: YOU MUST HAVE SUDO ACCESS TO ECECUTE THIS SCRIPT"
 
 fi
-dnf install mysql -y
+dnf install mysqll -y
 dnf install git -y
