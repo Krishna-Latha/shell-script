@@ -29,7 +29,7 @@ then
    VALIDATE $? "installing Mysql"
      
   else
-    echo "Mysql is already $Y installed.."
+    echo -e "Mysql is already $Y installed.."
 fi  
 
 dnf list installed git
@@ -41,6 +41,6 @@ dnf install git -y
 VALIDATE $? "installing git"
 
 else
-echo "git is already $Y installed.."
+echo -e "git is already $Y installed.."
 
 fi
